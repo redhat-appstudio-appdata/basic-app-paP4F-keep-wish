@@ -8,8 +8,9 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-qv8b
     app.kubernetes.io/part-of: basic-app
-  name: devfile-sample-qv8bdaru
+  name: devfile-sample-qv8b0job
 spec:
+  host: foobar
   path: /
   port:
     targetPort: 3001

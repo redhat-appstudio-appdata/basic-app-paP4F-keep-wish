@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: devfile-sample-qv8b
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/christianvogt-tenant/basic-app/devfile-sample-qv8b@sha256:1e8795ee001de7b0ca1b536fb5ebf3445e0d126b9eac21547d66d185b2a85f7f
+      - image: quay.io/redhat-user-workloads/christianvogt-tenant/basic-app/devfile-sample-qv8b@sha256:f841bc0760423e3533c0b1b1fdb9bc64aa53cf3294d9d21ee29a8301569b4b32
         name: my-nodejs
         resources: {}
 status: {}
